@@ -2,7 +2,7 @@ import { Counter } from './components/Counter';
 import { Usuario } from './components/Usuario';
 
 import { TimerPadre } from './components/TimerPadre';
-import { ContadorReducer } from './components/ContadorReducer';
+import { ContadorRed } from './components/ContadorRed';
 
 
 function App() {
@@ -13,13 +13,16 @@ function App() {
 
       <h2>useState</h2>
       <Counter/>
+      <br /><hr />
       <Usuario/>
 
       <h2>useEffect - useRef</h2>
-      <hr />
+      <br /><hr />
       <TimerPadre/>
 
-     <ContadorReducer/>
+      <h2>useReducer</h2>
+      <br /><hr />
+      <ContadorRed/>
 
     </>
   );
