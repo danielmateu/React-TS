@@ -4,14 +4,12 @@ import { useState } from 'react';
 
 export const TimerPadre = () => {
 
-    const [milisegundos, setMilisegundos] = useState(1000)
+    const [milisegundos, setMilisegundos] = useState(1000);
 
 
-    
+
     return (
         <>
-            <hr />
-            
             <span>Milisegundos {milisegundos}</span>
             <br />
             <button 
@@ -22,10 +20,6 @@ export const TimerPadre = () => {
             className="btn btn-outline-success">2000</button>
 
             <Timer milisegundos={milisegundos} />
-
-            
-
-
         </>
     )
 }

@@ -5,7 +5,6 @@ type TimerArgs = {
     milisegundos: number,
 }
 
-
 export const Timer = ({milisegundos}: TimerArgs) => {
 
 
